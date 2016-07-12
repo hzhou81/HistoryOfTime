@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F1808" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <table alignment="left" id="y9V-o6-Wvl">
+                            <items>
+                                <tableRow identifier="TableRowController" id="LqJ-0p-jRW" customClass="TableRowController">
+                                    <group key="rootItem" width="1" alignment="left" id="fPZ-dI-15P">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="qda-5l-0kQ"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="soundName" destination="qda-5l-0kQ" id="z2D-AT-dZX"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="y9V-o6-Wvl" id="vxT-v7-CEA"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="46" y="210"/>
+        </scene>
+    </scenes>
+</document>

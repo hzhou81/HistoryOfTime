@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3B11281D323A7F00BA7956 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B11261D323A7F00BA7956 /* Interface.storyboard */; };
+		7E3B112A1D323A7F00BA7956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B11291D323A7F00BA7956 /* Assets.xcassets */; };
+		7E3B11311D323A7F00BA7956 /* HistoryOfTimeWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E3B11301D323A7F00BA7956 /* HistoryOfTimeWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E3B11371D323A7F00BA7956 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B11361D323A7F00BA7956 /* InterfaceController.m */; };
+		7E3B113A1D323A7F00BA7956 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B11391D323A7F00BA7956 /* ExtensionDelegate.m */; };
+		7E3B113C1D323A7F00BA7956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B113B1D323A7F00BA7956 /* Assets.xcassets */; };
+		7E3B11401D323A7F00BA7956 /* HistoryOfTimeWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7E3B11241D323A7E00BA7956 /* HistoryOfTimeWatch.app */; };
+		7E3B114B1D32461300BA7956 /* TableRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B114A1D32461300BA7956 /* TableRowController.m */; settings = {ASSET_TAGS = (); }; };
 		7E8A5AA81D1883DA00F75DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A5AA71D1883DA00F75DE6 /* main.m */; };
 		7E8A5AAB1D1883DA00F75DE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A5AAA1D1883DA00F75DE6 /* AppDelegate.m */; };
 		7E8A5AAE1D1883DA00F75DE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A5AAD1D1883DA00F75DE6 /* ViewController.m */; };
@@ -93,9 +101,74 @@
 		7EE9C7DF1D1AF08F0040F5F3 /* 2048_1496.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EE9C7D11D1AF08F0040F5F3 /* 2048_1496.png */; settings = {ASSET_TAGS = (); }; };
 		7EE9C7E01D1AF08F0040F5F3 /* 2048_1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EE9C7D21D1AF08F0040F5F3 /* 2048_1536.png */; settings = {ASSET_TAGS = (); }; };
 		7EE9C7E11D1AF08F0040F5F3 /* 2208_1242.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EE9C7D31D1AF08F0040F5F3 /* 2208_1242.png */; settings = {ASSET_TAGS = (); }; };
+		7EF087961D33A48E00007524 /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF0878C1D33A48E00007524 /* 10.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7EF087971D33A48E00007524 /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF0878D1D33A48E00007524 /* 9.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7EF087981D33A48E00007524 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF0878E1D33A48E00007524 /* 7.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7EF087991D33A48E00007524 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF0878F1D33A48E00007524 /* 8.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7EF0879A1D33A48E00007524 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF087901D33A48E00007524 /* 5.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7EF0879B1D33A48E00007524 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF087911D33A48E00007524 /* 6.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7EF0879C1D33A48E00007524 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF087921D33A48E00007524 /* 3.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7EF0879D1D33A48E00007524 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF087931D33A48E00007524 /* 4.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7EF0879E1D33A48E00007524 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF087941D33A48E00007524 /* 1.mp3 */; settings = {ASSET_TAGS = (); }; };
+		7EF0879F1D33A48E00007524 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EF087951D33A48E00007524 /* 2.mp3 */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7E3B11321D323A7F00BA7956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E8A5A9B1D1883D900F75DE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3B112F1D323A7F00BA7956;
+			remoteInfo = "HistoryOfTimeWatch Extension";
+		};
+		7E3B113E1D323A7F00BA7956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E8A5A9B1D1883D900F75DE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3B11231D323A7E00BA7956;
+			remoteInfo = HistoryOfTimeWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E3B11461D323A7F00BA7956 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E3B11311D323A7F00BA7956 /* HistoryOfTimeWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B11481D323A7F00BA7956 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7E3B11401D323A7F00BA7956 /* HistoryOfTimeWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7E3B11241D323A7E00BA7956 /* HistoryOfTimeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HistoryOfTimeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3B11271D323A7F00BA7956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7E3B11291D323A7F00BA7956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E3B112B1D323A7F00BA7956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3B11301D323A7F00BA7956 /* HistoryOfTimeWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HistoryOfTimeWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3B11351D323A7F00BA7956 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		7E3B11361D323A7F00BA7956 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		7E3B11381D323A7F00BA7956 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		7E3B11391D323A7F00BA7956 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		7E3B113B1D323A7F00BA7956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E3B113D1D323A7F00BA7956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3B11491D32461300BA7956 /* TableRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableRowController.h; sourceTree = "<group>"; };
+		7E3B114A1D32461300BA7956 /* TableRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableRowController.m; sourceTree = "<group>"; };
 		7E8A5AA31D1883D900F75DE6 /* 时间简史.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "时间简史.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8A5AA71D1883DA00F75DE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E8A5AA91D1883DA00F75DE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -219,9 +292,26 @@
 		7EE9C7D11D1AF08F0040F5F3 /* 2048_1496.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2048_1496.png; sourceTree = "<group>"; };
 		7EE9C7D21D1AF08F0040F5F3 /* 2048_1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2048_1536.png; sourceTree = "<group>"; };
 		7EE9C7D31D1AF08F0040F5F3 /* 2208_1242.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2208_1242.png; sourceTree = "<group>"; };
+		7EF0878C1D33A48E00007524 /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10.mp3; sourceTree = "<group>"; };
+		7EF0878D1D33A48E00007524 /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
+		7EF0878E1D33A48E00007524 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
+		7EF0878F1D33A48E00007524 /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		7EF087901D33A48E00007524 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		7EF087911D33A48E00007524 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		7EF087921D33A48E00007524 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		7EF087931D33A48E00007524 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		7EF087941D33A48E00007524 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		7EF087951D33A48E00007524 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7E3B112D1D323A7F00BA7956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E8A5AA01D1883D900F75DE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,6 +323,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E3B11251D323A7F00BA7956 /* HistoryOfTimeWatch */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B11261D323A7F00BA7956 /* Interface.storyboard */,
+				7E3B11291D323A7F00BA7956 /* Assets.xcassets */,
+				7E3B112B1D323A7F00BA7956 /* Info.plist */,
+			);
+			path = HistoryOfTimeWatch;
+			sourceTree = "<group>";
+		};
+		7E3B11341D323A7F00BA7956 /* HistoryOfTimeWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7EF087A01D33A49200007524 /* sound */,
+				7E3B11351D323A7F00BA7956 /* InterfaceController.h */,
+				7E3B11361D323A7F00BA7956 /* InterfaceController.m */,
+				7E3B11381D323A7F00BA7956 /* ExtensionDelegate.h */,
+				7E3B11391D323A7F00BA7956 /* ExtensionDelegate.m */,
+				7E3B113B1D323A7F00BA7956 /* Assets.xcassets */,
+				7E3B113D1D323A7F00BA7956 /* Info.plist */,
+				7E3B11491D32461300BA7956 /* TableRowController.h */,
+				7E3B114A1D32461300BA7956 /* TableRowController.m */,
+			);
+			path = "HistoryOfTimeWatch Extension";
+			sourceTree = "<group>";
+		};
 		7E8A5A9A1D1883D900F75DE6 = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +356,8 @@
 				7E8A5AD11D18896300F75DE6 /* Foundation.framework */,
 				7E8A5ACE1D18876700F75DE6 /* UIKit.framework */,
 				7E8A5AA51D1883D900F75DE6 /* HistoryOfTime */,
+				7E3B11251D323A7F00BA7956 /* HistoryOfTimeWatch */,
+				7E3B11341D323A7F00BA7956 /* HistoryOfTimeWatch Extension */,
 				7E8A5AA41D1883D900F75DE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -248,6 +366,8 @@
 			isa = PBXGroup;
 			children = (
 				7E8A5AA31D1883D900F75DE6 /* 时间简史.app */,
+				7E3B11241D323A7E00BA7956 /* HistoryOfTimeWatch.app */,
+				7E3B11301D323A7F00BA7956 /* HistoryOfTimeWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -466,9 +586,60 @@
 			name = launch;
 			sourceTree = "<group>";
 		};
+		7EF087A01D33A49200007524 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				7EF0878C1D33A48E00007524 /* 10.mp3 */,
+				7EF0878D1D33A48E00007524 /* 9.mp3 */,
+				7EF0878E1D33A48E00007524 /* 7.mp3 */,
+				7EF0878F1D33A48E00007524 /* 8.mp3 */,
+				7EF087901D33A48E00007524 /* 5.mp3 */,
+				7EF087911D33A48E00007524 /* 6.mp3 */,
+				7EF087921D33A48E00007524 /* 3.mp3 */,
+				7EF087931D33A48E00007524 /* 4.mp3 */,
+				7EF087941D33A48E00007524 /* 1.mp3 */,
+				7EF087951D33A48E00007524 /* 2.mp3 */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7E3B11231D323A7E00BA7956 /* HistoryOfTimeWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3B11471D323A7F00BA7956 /* Build configuration list for PBXNativeTarget "HistoryOfTimeWatch" */;
+			buildPhases = (
+				7E3B11221D323A7E00BA7956 /* Resources */,
+				7E3B11461D323A7F00BA7956 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3B11331D323A7F00BA7956 /* PBXTargetDependency */,
+			);
+			name = HistoryOfTimeWatch;
+			productName = HistoryOfTimeWatch;
+			productReference = 7E3B11241D323A7E00BA7956 /* HistoryOfTimeWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7E3B112F1D323A7F00BA7956 /* HistoryOfTimeWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3B11451D323A7F00BA7956 /* Build configuration list for PBXNativeTarget "HistoryOfTimeWatch Extension" */;
+			buildPhases = (
+				7E3B112C1D323A7F00BA7956 /* Sources */,
+				7E3B112D1D323A7F00BA7956 /* Frameworks */,
+				7E3B112E1D323A7F00BA7956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HistoryOfTimeWatch Extension";
+			productName = "HistoryOfTimeWatch Extension";
+			productReference = 7E3B11301D323A7F00BA7956 /* HistoryOfTimeWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		7E8A5AA21D1883D900F75DE6 /* HistoryOfTime */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E8A5ABA1D1883DA00F75DE6 /* Build configuration list for PBXNativeTarget "HistoryOfTime" */;
@@ -476,10 +647,12 @@
 				7E8A5A9F1D1883D900F75DE6 /* Sources */,
 				7E8A5AA01D1883D900F75DE6 /* Frameworks */,
 				7E8A5AA11D1883D900F75DE6 /* Resources */,
+				7E3B11481D323A7F00BA7956 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7E3B113F1D323A7F00BA7956 /* PBXTargetDependency */,
 			);
 			name = HistoryOfTime;
 			productName = HistoryOfTime;
@@ -495,6 +668,12 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = hzhou;
 				TargetAttributes = {
+					7E3B11231D323A7E00BA7956 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7E3B112F1D323A7F00BA7956 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					7E8A5AA21D1883D900F75DE6 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -514,11 +693,40 @@
 			projectRoot = "";
 			targets = (
 				7E8A5AA21D1883D900F75DE6 /* HistoryOfTime */,
+				7E3B11231D323A7E00BA7956 /* HistoryOfTimeWatch */,
+				7E3B112F1D323A7F00BA7956 /* HistoryOfTimeWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7E3B11221D323A7E00BA7956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3B112A1D323A7F00BA7956 /* Assets.xcassets in Resources */,
+				7E3B11281D323A7F00BA7956 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3B112E1D323A7F00BA7956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF0879F1D33A48E00007524 /* 2.mp3 in Resources */,
+				7EF0879D1D33A48E00007524 /* 4.mp3 in Resources */,
+				7EF0879A1D33A48E00007524 /* 5.mp3 in Resources */,
+				7EF087991D33A48E00007524 /* 8.mp3 in Resources */,
+				7EF087971D33A48E00007524 /* 9.mp3 in Resources */,
+				7EF0879E1D33A48E00007524 /* 1.mp3 in Resources */,
+				7EF0879B1D33A48E00007524 /* 6.mp3 in Resources */,
+				7E3B113C1D323A7F00BA7956 /* Assets.xcassets in Resources */,
+				7EF087981D33A48E00007524 /* 7.mp3 in Resources */,
+				7EF0879C1D33A48E00007524 /* 3.mp3 in Resources */,
+				7EF087961D33A48E00007524 /* 10.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E8A5AA11D1883D900F75DE6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -585,6 +793,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7E3B112C1D323A7F00BA7956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3B113A1D323A7F00BA7956 /* ExtensionDelegate.m in Sources */,
+				7E3B11371D323A7F00BA7956 /* InterfaceController.m in Sources */,
+				7E3B114B1D32461300BA7956 /* TableRowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E8A5A9F1D1883D900F75DE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,7 +841,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7E3B11331D323A7F00BA7956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3B112F1D323A7F00BA7956 /* HistoryOfTimeWatch Extension */;
+			targetProxy = 7E3B11321D323A7F00BA7956 /* PBXContainerItemProxy */;
+		};
+		7E3B113F1D323A7F00BA7956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3B11231D323A7E00BA7956 /* HistoryOfTimeWatch */;
+			targetProxy = 7E3B113E1D323A7F00BA7956 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		7E3B11261D323A7F00BA7956 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3B11271D323A7F00BA7956 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		7E8A5AAF1D1883DA00F75DE6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -643,6 +882,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7E3B11411D323A7F00BA7956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HistoryOfTimeWatch_Extension;
+				INFOPLIST_FILE = HistoryOfTimeWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracle.HistoryOfTime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7E3B11421D323A7F00BA7956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HistoryOfTimeWatch_Extension;
+				INFOPLIST_FILE = HistoryOfTimeWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracle.HistoryOfTime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7E3B11431D323A7F00BA7956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HistoryOfTimeWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracle.HistoryOfTime.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7E3B11441D323A7F00BA7956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HistoryOfTimeWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracle.HistoryOfTime.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		7E8A5AB81D1883DA00F75DE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -760,6 +1057,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7E3B11451D323A7F00BA7956 /* Build configuration list for PBXNativeTarget "HistoryOfTimeWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3B11431D323A7F00BA7956 /* Debug */,
+				7E3B11441D323A7F00BA7956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3B11471D323A7F00BA7956 /* Build configuration list for PBXNativeTarget "HistoryOfTimeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3B11411D323A7F00BA7956 /* Debug */,
+				7E3B11421D323A7F00BA7956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7E8A5A9E1D1883D900F75DE6 /* Build configuration list for PBXProject "HistoryOfTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
